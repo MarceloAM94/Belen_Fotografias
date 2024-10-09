@@ -1,0 +1,360 @@
+/* Asegúrate de enlazar este archivo en el <head> */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Cambiar el color de fondo de la navbar */
+.navbar-custom {
+    background-color: #ffffff; 
+}
+
+.navbar-brand{
+    font-style: bold;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+/* Cambiar el color de las letras en la navbar */
+.navbar-custom .nav-link {
+    color: #000000;
+}
+
+/* Cambiar el color cuando pasas el mouse sobre un enlace */
+.navbar-custom .nav-link:hover {
+    color: #C72D31; 
+}
+
+/* Carrusel */
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Sección de Bienvenida */
+.bg-danger {
+    background-color: #b11c22 !important;
+}
+
+/* Proyectos destacados */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title{
+    text-align: center;
+}
+
+.footer-custom {
+    background-color: #343a40; /* Color oscuro para el fondo */
+    color: #ffffff; /* Texto blanco */
+}
+
+.footer-custom a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-custom a:hover {
+    color: #ffc107; /* Color amarillo para el hover */
+}
+
+.footer-custom .bi {
+    font-size: 1.5rem; /* Tamaño de los iconos de redes sociales */
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.footer-custom .bi:hover {
+    color: #ffc107; /* Efecto hover en los iconos de redes sociales */
+}
+
+.footer-custom hr {
+    border-color: rgba(255, 255, 255, 0.2); /* Líneas separadoras */
+}
+
+/* Estilo del footer */
+.footer-custom {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+.footer-custom a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-custom a:hover {
+    color: #ffc107; /* Color amarillo al pasar el mouse */
+}
+
+.footer-custom .bi {
+    font-size: 1.5rem; /* Tamaño de los iconos de redes sociales */
+    transition: color 0.3s;
+}
+
+.footer-custom .bi:hover {
+    color: #ffc107; /* Efecto hover en los iconos */
+}
+
+.footer-custom hr {
+    border-color: rgba(255, 255, 255, 0.2); /* Líneas separadoras */
+}
+
+
+
+
+
+/*Pagina Nosotros*/
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #C72D31;
+}
+
+.nosotros {
+    background-color: #f9f9f9;
+}
+
+.nosotros h2 {
+    font-size: 2.5rem;
+    color: #b11c22;
+}
+
+.nosotros h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.nosotros p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #20232a;
+}
+
+footer .footer-menu h5 {
+    margin-bottom: 10px;
+}
+
+footer .footer-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+footer .footer-menu ul li a:hover {
+    color: #ffc107;
+}
+
+.footer-custom .social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-custom .social-icons a:hover {
+    color: #ffc107;
+}
+
+/* Sección de "Nuestro Equipo" */
+
+
+.team {
+    background-color: #f9f9f9;
+}
+
+.team h2 {
+    font-size: 2.5rem;
+    color: #b11c22;
+}
+
+.team-member {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.team-member h4 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.team-member .btn {
+    background-color: #C72D31;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.team-member .btn:hover {
+    background-color: #b11c22;
+    color: #fff;
+}
+
+/* Sección de Contacto */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #c21818;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Estilos del formulario */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fce1e1; /* Color de fondo para los inputs */
+    color: #333;
+}
+
+.contact-form .form-control::placeholder {
+    color: #bbb;
+}
+
+.contact-form .btn {
+    background-color: #C72D31;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.contact-form .btn:hover {
+    background-color: #b11c22;
+}
+
+/* Información de contacto */
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-info h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Estilo para el iframe del mapa */
+.contact-info iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Animación de las imágenes */
+.team-img {
+    transition: transform 0.3s ease;
+}
+
+.team-img:hover {
+    transform: scale(1.1);
+}
+
+/* Ajustes de los botones de redes sociales */
+.btn-outline-danger {
+    color: #C72D31;
+    border-color: #C72D31;
+}
+
+.btn-outline-danger:hover {
+    background-color: #C72D31;
+    color: white;
+}
+
+/* Ajuste del botón de enviar */
+.btn-primary {
+    background-color: #C72D31;
+    border-color: #C72D31;
+}
+
+.btn-primary:hover {
+    background-color: #b11c22;
+}
+
+/* Espaciado de los íconos en los inputs */
+.input-group-text {
+    background-color: #C72D31;
+    color: white;
+}
+
