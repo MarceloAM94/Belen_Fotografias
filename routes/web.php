@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 // Ruta para la página "Index"
 Route::get('/', function () {
     return view('index');
