@@ -28,22 +28,22 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="{{ url('/') }}">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="paquetes.html">Paquetes</a>
+                            <a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="equipo.html">Equipo</a>
+                            <a class="nav-link" href="{{ url('/equipo') }}">Equipo</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://linktr.ee/belen_fotografias" target="_blank">Redes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="{{ url('/contacto') }}">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -138,13 +138,14 @@
                 <div class="col-md-4 mb-4">
                     <h5>Enlaces Útiles</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html" class="text-light">Inicio</a></li>
-                        <li><a href="nosotros.html" class="text-light">Nosotros</a></li>
-                        <li><a href="paquetes.html" class="text-light">Paquetes</a></li>
-                        <li><a href="equipo.html" class="text-light">Equipo</a></li>
-                        <li><a href="contacto.html" class="text-light">Contacto</a></li>
+                        <li><a class="nav-link" href="{{ url('/') }}">Inicio</a></li>
+                        <li><a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
+                        <li><a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a></li>
+                        <li><a class="nav-link" href="{{ url('/equipo') }}">Equipo</a></li>
+                        <li><a class="nav-link" href="{{ url('/contacto') }}">Contacto</a></li>
                     </ul>
                 </div>
+
 
                 <!-- Redes sociales -->
                 <div class="col-md-4 mb-4 text-center">
