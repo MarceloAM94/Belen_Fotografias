@@ -1,0 +1,128 @@
+/* estilos.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; /* Rosa Pastel */
+    color: #7C2A24; /* Rojo Oscuro */
+}
+
+/* Cambiar el color de fondo de la navbar */
+.navbar-custom {
+    background-color: #ffffff; 
+}
+
+.navbar-brand{
+    font-style: bold;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+/* Cambiar el color de las letras en la navbar */
+.navbar-custom .nav-link {
+    color: #000000;
+}
+
+/* Cambiar el color cuando pasas el mouse sobre un enlace */
+.navbar-custom .nav-link:hover {
+    color: #C72D31; 
+}
+
+.hero {
+    background-color: #F8B2B2; /* Rosa Claro */
+    color: #7C2A24; /* Rojo Oscuro */
+    padding: 60px 0;
+}
+
+.paquete-basico h2, .paquete-basico h3 {
+    color: #7C2A24; /* Rojo Oscuro */
+}
+
+.paquete-basico {
+    background-color: #D9534F; /* Rojo Coral */
+    color: #F8E8E8; /* Rosa Pastel */
+    padding: 60px 0;
+    border-radius: 10px;
+}
+
+.paquete-basico p, .paquete-basico ul {
+    color: #F8E8E8; /* Rosa Pastel */
+}
+
+.paquete-basico ul li {
+    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+.paquete-basico ul li:before {
+    content: "✔"; 
+    color: #7C2A24; /* Rojo Oscuro */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #7C2A24; /* Rojo Oscuro */
+    color: #F8E8E8; /* Rosa Pastel */
+}
+
+footer a {
+    color: #F8E8E8;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #D9534F; /* Rojo Coral */
+}
+
+/* Estilo para la sección de Inversión Total */
+.inversion-total {
+    background-color: #f8e2e2; /* Fondo claro de la paleta */
+    border: 2px solid #a64d4d; /* Borde en color más oscuro de la paleta */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    margin: 20px auto; /* Centrar el cuadro en la página */
+    max-width: 600px; /* Ancho máximo aumentado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.inversion-total h3 {
+    color: #a64d4d; /* Color del título */
+    margin-bottom: 10px;
+}
+
+.inversion-total p {
+    margin: 5px 0;
+    color: #333; /* Color del texto */
+}
+
+.inversion-total .nota {
+    font-size: 12px;
+    color: #555; /* Color del texto de la nota */
+    margin-top: 10px;
+}
+
+/* Estilo para la tabla */
+.table {
+    width: 100%; /* Para que ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centrar la tabla */
+    border-collapse: collapse; /* Eliminar espacio entre bordes de celdas */
+}
+
+.table td {
+    padding: 8px 10px; /* Espaciado en las celdas */
+    text-align: left; /* Alineación a la izquierda para texto */
+}
+
+.table td:last-child {
+    text-align: right; /* Alineación a la derecha para los montos */
+}
+
+.table .fw-bold {
+    font-weight: bold; /* Negrita para el total */
+    border-top: 2px solid #a64d4d; /* Línea superior para separar el total */
+    padding-top: 10px;
+}
