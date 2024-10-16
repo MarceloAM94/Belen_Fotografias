@@ -26,3 +26,18 @@ Route::get('/equipo', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+// Ruta para la pagina "Paquete basico"
+Route::get('/paquete-basico', function () {
+    return view('paquetebasico');
+});
+
+// Ruta para la pagina "Paquete intermedio"
+Route::get('/paquete-intermedio', function () {
+    return view('paqueteintermedio');
+});
+
+// Ruta para la pagina "Paquete completo"
+Route::get('/paquete-completo', function () {
+    return view('paquetecompleta');
+});

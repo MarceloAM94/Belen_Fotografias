@@ -60,28 +60,28 @@
                 <!-- Fila 1: Miembro 1 y 2 -->
                 <div class="col-md-6 col-lg-6 mb-5">
                     <div class="card border-0 shadow-lg h-100">
-                        <img src="imagenes/abel.jpg" alt="Abel Espinoza" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
+                        <img src="{{ asset('imagenes/abel_equipo.jpeg')}}" alt="Abel Espinoza" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
                         <div class="card-body">
                             <h4 class="card-title">Abel Espinoza</h4>
                             <p class="card-text">Fotógrafo y Editor</p>
                             <p class="text-muted">Su dominio de las técnicas de filmación y edición nos permite entregar contenido visual impactante.</p>
                         </div>
                         <div class="card-footer bg-transparent">
-                            <a href="https://www.instagram.com" class="btn btn-outline-danger mx-2"><i class="bi bi-instagram"></i> Instagram</a>
+                            <a href="https://www.instagram.com/abel_elcamaras/profilecard/?igsh=MWxlcjJ4dGRvOTA0dw==" class="btn btn-outline-danger mx-2"><i class="bi bi-instagram"></i> Instagram</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-6 mb-5">
                     <div class="card border-0 shadow-lg h-100">
-                        <img src="imagenes/belen.jpg" alt="Belén Espinoza" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
+                        <img src="{{ asset('imagenes/belen_equipo.jpeg')}}" alt="Belén Espinoza" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
                         <div class="card-body">
                             <h4 class="card-title">Belén Espinoza</h4>
                             <p class="card-text">Fundadora y Fotógrafa</p>
                             <p class="text-muted">Con un ojo artístico excepcional, captura la esencia de cada momento en eventos sociales.</p>
                         </div>
                         <div class="card-footer bg-transparent">
-                            <a href="https://www.instagram.com" class="btn btn-outline-danger mx-2"><i class="bi bi-instagram"></i> Instagram</a>
+                            <a href="https://www.instagram.com/_belespinoza/profilecard/?igsh=d3prZXAwN2hsbmlx" class="btn btn-outline-danger mx-2"><i class="bi bi-instagram"></i> Instagram</a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                 <!-- Fila 2: Miembro 3 y 4 -->
                 <div class="col-md-6 col-lg-6 mb-5">
                     <div class="card border-0 shadow-lg h-100">
-                        <img src="imagenes/mario.jpg" alt="Mario Robles" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
+                        <img src="{{ asset('imagenes/belen_equipo.jpeg')}}" alt="Mario Robles" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
                         <div class="card-body">
                             <h4 class="card-title">Mario Robles</h4>
                             <p class="card-text">Editor</p>
@@ -105,14 +105,14 @@
 
                 <div class="col-md-6 col-lg-6 mb-5">
                     <div class="card border-0 shadow-lg h-100">
-                        <img src="imagenes/cielo.jpg" alt="Cielo Espinoza" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
+                        <img src="{{ asset('imagenes/cielo_equipo.jpeg')}}" alt="Cielo Espinoza" class="rounded-circle mx-auto mt-4 team-img" width="200" height="200">
                         <div class="card-body">
                             <h4 class="card-title">Cielo Espinoza</h4>
                             <p class="card-text">Soporte y Manager</p>
                             <p class="text-muted">Su trabajo de soporte es clave para el éxito de nuestros proyectos audiovisuales.</p>
                         </div>
                         <div class="card-footer bg-transparent">
-                            <a href="https://www.instagram.com" class="btn btn-outline-danger mx-2"><i class="bi bi-instagram"></i> Instagram</a>
+                            <a href="https://www.instagram.com/cielo_ef/profilecard/?igsh=aGRtdTM5YTV4dW5v" class="btn btn-outline-danger mx-2"><i class="bi bi-instagram"></i> Instagram</a>
                         </div>
                     </div>
                 </div>

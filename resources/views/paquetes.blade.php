@@ -123,7 +123,7 @@
                         <h4 class="text-center">s/. 1120</h4>
                     </div>
                     <div class="card-footer text-center bg-transparent">
-                        <a href="paquete-basico.html" class="btn btn-outline-danger">Ver Detalles</a>
+                        <a href="{{ url('/paquete-basico') }}" class="btn btn-outline-danger">Ver Detalles</a>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                         <h4 class="text-center">s/. 1570</h4>
                     </div>
                     <div class="card-footer text-center bg-transparent">
-                        <a href="paquete-intermedio.html" class="btn btn-outline-danger">Ver Detalles</a>
+                        <a href="{{ url('/paquete-intermedio') }}" class="btn btn-outline-danger">Ver Detalles</a>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                         <h4 class="text-center">s/. 3500</h4>
                     </div>
                     <div class="card-footer text-center bg-transparent">
-                        <a href="paquete-completo.html" class="btn btn-outline-danger">Ver Detalles</a>
+                    <a href="{{ url('/paquete-completo') }}" class="btn btn-outline-danger">Ver Detalles</a>
                     </div>
                 </div>
             </div>
