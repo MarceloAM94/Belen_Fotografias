@@ -12,6 +12,9 @@ body {
 
 .navbar-brand{
     font-style: bold;
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 15px; /* Espacio entre el logo y el texto */
 }
 
 .logo{
@@ -23,10 +26,17 @@ body {
     color: #000000;
 }
 
+.logo {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+}
+
 /* Cambiar el color cuando pasas el mouse sobre un enlace */
 .navbar-custom .nav-link:hover {
     color: #C72D31; 
 }
+
 
 .hero {
     background-color: #F8B2B2; /* Rosa Claro */
@@ -125,4 +135,26 @@ footer a:hover {
     font-weight: bold; /* Negrita para el total */
     border-top: 2px solid #a64d4d; /* Línea superior para separar el total */
     padding-top: 10px;
+}
+
+.paquete-basico ul {
+    padding-left: 0; /* Elimina el padding del ul */
+    margin: 0; /* Elimina el margen del ul */
+}
+
+.paquete-basico ul li {
+    list-style-type: none;
+    padding-left: 5px; /* Reducimos aún más el padding */
+    margin-bottom: 2px; /* Reducimos el margen entre los elementos */
+    line-height: 1; /* Ajustamos la altura de línea para compactar más */
+    position: relative;
+}
+
+.paquete-basico ul li:before {
+    content: ""; 
+    color: #7C2A24; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    transform: translateY(0); /* Mantiene el icono alineado con el texto */
 }
