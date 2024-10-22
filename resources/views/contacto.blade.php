@@ -138,7 +138,7 @@
                 <div class="col-md-4 mb-4">
                     <h5>Contacto</h5>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Ciudad, País</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Lima, Lima</li>
                         <li><i class="bi bi-telephone-fill"></i> +51 999 999 999</li>
                         <li><i class="bi bi-envelope-fill"></i> info@belenfotografias.com</li>
                     </ul>
