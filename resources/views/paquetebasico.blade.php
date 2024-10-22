@@ -53,11 +53,19 @@
 
     <!-- Hero Section -->
     <section class="hero text-center">
-        <div class="container">
-            <h1 class="display-4">Paquete Básico de Fotografía</h1>
-            <p class="lead">Captura los momentos más íntimos y especiales de tu boda con nuestro paquete básico.</p>
-            <img src="imagenes/boda_hero.jpg" alt="Fotografía de boda" class="img-fluid mt-4" style="border-radius: 10px;">
+    <div class="container">
+        <h1 class="display-4 text-black">Paquete Básico de Fotografía</h1>
+        <p class="lead">Captura los momentos más íntimos y especiales de tu boda con nuestro paquete básico.</p>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="{{ asset('imagenes/basico1.png') }}" alt="Fotografía de boda" class="img-fluid img-small" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-6">
+                <img src="{{ asset('imagenes/basico2.jpg') }}" alt="Fotografía de boda" class="img-fluid img-small" style="border-radius: 10px;">
+            </div>
         </div>
+    </div>
     </section>
 
     <!-- Sección del Paquete Básico -->
@@ -148,7 +156,7 @@
                 <div class="col-md-4 mb-4">
                     <h5>Contacto</h5>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Ciudad, País</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Lima, Lima</li>
                         <li><i class="bi bi-telephone-fill"></i> +51 999 999 999</li>
                         <li><i class="bi bi-envelope-fill"></i> info@belenfotografias.com</li>
                     </ul>

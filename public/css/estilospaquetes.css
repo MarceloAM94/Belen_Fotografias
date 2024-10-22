@@ -158,3 +158,9 @@ footer a:hover {
     top: 0; 
     transform: translateY(0); /* Mantiene el icono alineado con el texto */
 }
+
+
+/*color negro para el titulo*/
+.text-black {
+    color: #000000; /* Color negro */
+}

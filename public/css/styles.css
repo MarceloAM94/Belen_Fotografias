@@ -179,6 +179,41 @@ footer .footer-menu ul li a:hover {
 /* Sección de "Nuestro Equipo" */
 
 
+
+/*ajustes de nosotroa */
+.nosotros p {
+    text-align: justify;
+}
+
+.nosotros h3 {
+    text-align: center; /* Centra el texto de los encabezados h3 */
+}
+
+.nosotros p {
+    text-align: justify; /* Justifica el texto de los párrafos */
+}
+
+/* Opcional: Ajustes para el contenedor principal */
+.nosotros .container {
+    max-width: 800px; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+/* Opcional: Ajustes de espaciado */
+.nosotros {
+    padding: 3rem 1rem; /* Espaciado superior e inferior */
+}
+
+
+/* imagenes basico*/
+.img-small {
+    max-width: 80%; /* Reduce el tamaño de las imágenes */
+    height: auto; /* Mantén la proporción */
+    display: block; /* Asegura que las imágenes se muestren como bloques */
+    margin-left: auto;
+    margin-right: auto; /* Centra las imágenes dentro de su columna */
+}
+
 .team {
     background-color: #f9f9f9;
 }

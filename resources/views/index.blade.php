@@ -101,35 +101,41 @@
     </section>
 
     <!-- Proyectos destacados -->
-    <section class="container py-5">
-        <h3 class="text-center mb-4">Descubre nuestros paquetes de bodas:</h3>
-        <div class="row">
-            <div class="col-md-4">
+<section class="container py-5">
+    <h3 class="text-center mb-4">Descubre nuestros paquetes de bodas:</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="{{ url('/paquetes') }}" class="text-decoration-none">
                 <div class="card">
                     <img src="{{ asset('imagenes/wedding-540905_1280.jpg') }}" class="card-img-top" alt="Filmación de bodas">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Filmación de Bodas</h5>
+                        <h5 class="card-title text-center">Paquete Básico</h5>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{{ url('/paquetes') }}" class="text-decoration-none">
                 <div class="card">
                     <img src="{{ asset('imagenes/wedding-7335258_1280.jpg') }}" class="card-img-top" alt="Filmación de eventos sociales">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Filmación de Eventos Sociales</h5>
+                        <h5 class="card-title text-center">Paquete Intermedio</h5>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{{ url('/paquetes') }}" class="text-decoration-none">
                 <div class="card">
                     <img src="{{ asset('imagenes/woman-4081760_1280.jpg') }}" class="card-img-top" alt="Edición de videos">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Edición de Video y Fotografía</h5>
+                        <h5 class="card-title text-center">Paquete Completo</h5>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="footer-custom py-5 bg-dark text-light">
@@ -139,7 +145,7 @@
                 <div class="col-md-4 mb-4">
                     <h5>Contacto</h5>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Ciudad, País</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Lima, Lima</li>
                         <li><i class="bi bi-telephone-fill"></i> +51 999 999 999</li>
                         <li><i class="bi bi-envelope-fill"></i> info@belenfotografias.com</li>
                     </ul>

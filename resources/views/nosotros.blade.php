@@ -65,7 +65,7 @@
             <!-- Historia de la Empresa -->
             <div class="row align-items-center mb-5">
                 <div class="col-md-6">
-                    <img src="https://scontent.flim12-1.fna.fbcdn.net/v/t39.30808-6/240997581_1225738284591949_1104919892533960549_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9cNvZbLBqK0Q7kNvgH4oJI_&_nc_ht=scontent.flim12-1.fna&oh=00_AYAhd-_SYfxBpnogb4SOu0CKZIVny3UC8OmVXqiEhEBKnA&oe=6702A4EE" class="img-fluid rounded" alt="Historia de la Empresa">
+                    <img src="{{ asset('imagenes/nosotros1.jpg')}}" class="img-fluid rounded" alt="Historia de la Empresa">
                 </div>
                 <div class="col-md-6">
                     <h3>Historia de la Empresa</h3>
@@ -78,7 +78,7 @@
             <!-- Misión -->
             <div class="row align-items-center mb-5">
                 <div class="col-md-6 order-md-2">
-                    <img src="https://scontent.flim12-1.fna.fbcdn.net/v/t39.30808-6/461153970_831476609072547_1396875776684713514_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Tb__sgr7SKUQ7kNvgEKeqW6&_nc_ht=scontent.flim12-1.fna&_nc_gid=AgzeI-ed6tkRxaIWmIBE4aX&oh=00_AYB1tY7Fa3sj1X0iEoDsdZhR1kHPRZj8Iik3CjhVtpzImg&oe=67028B8E" class="img-fluid rounded" alt="Misión de la Empresa">
+                    <img src="{{ asset('imagenes/nosotros2.jpg')}}" class="img-fluid rounded" alt="Misión de la Empresa">
                 </div>
                 <div class="col-md-6 order-md-1">
                     <h3>Misión</h3>
@@ -91,7 +91,7 @@
             <!-- Visión -->
             <div class="row align-items-center mb-5">
                 <div class="col-md-6">
-                    <img src="https://scontent.flim12-1.fna.fbcdn.net/v/t39.30808-6/421653193_690069363213273_4496029786475799063_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gF6oYBFaNcwQ7kNvgH5t_5d&_nc_ht=scontent.flim12-1.fna&_nc_gid=AoFDfGYU9Wq6QjZ_7BYHQdv&oh=00_AYC-M0L1H0rZ8ZSGO5XHMGc4QLPre9PfUo91Q4s5VbaK6Q&oe=6702B7C1" class="img-fluid rounded" alt="Visión de la Empresa">
+                    <img src="{{ asset('imagenes/nosotros3.jpg')}}" class="img-fluid rounded" alt="Visión de la Empresa">
                 </div>
                 <div class="col-md-6">
                     <h3>Visión</h3>
@@ -121,7 +121,7 @@
                 <div class="col-md-4 mb-4">
                     <h5>Contacto</h5>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Ciudad, País</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> Jr Lucanas 683, La Victoria, Lima, Lima</li>
                         <li><i class="bi bi-telephone-fill"></i> +51 999 999 999</li>
                         <li><i class="bi bi-envelope-fill"></i> info@belenfotografias.com</li>
                     </ul>
