@@ -56,7 +56,7 @@
     </header>
 
     <!-- Carousel -->
-    <section id="carousel" class="carousel slide mb-5" data-bs-ride="carousel">
+    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -64,21 +64,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="imagenes/marriage-4226896_1280.jpg" class="d-block w-100" alt="Fotografía de boda">
+                <img src="{{ asset('imagenes/carrusel/carrusel1.jpg') }}" class="d-block w-100" alt="Fotografía de boda">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-4 fw-bold text-shadow">Belén Fotografías</h1>
+                    <h1 class="display-4">Belén Fotografías</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="imagenes/newlyweds-7201462_1280.jpg" class="d-block w-100" alt="Fotografía de recién casados">
+                <img src="{{ asset('imagenes/carrusel/carrusel2.jpg') }}" class="d-block w-100" alt="Fotografía de recién casados">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-4 fw-bold text-shadow">Momentos Únicos</h1>
+                    <h1 class="display-4">Momentos Únicos</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="imagenes/wedding-1353829_1280.jpg" class="d-block w-100" alt="Fotografía de pareja en boda">
+                <img src="{{ asset('imagenes/carrusel/carrusel3.jpg') }}" class="d-block w-100" alt="Fotografía de pareja en boda">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-4 fw-bold text-shadow">Captura de Recuerdos</h1>
+                    <h1 class="display-4">Captura de Recuerdos</h1>
                 </div>
             </div>
         </div>

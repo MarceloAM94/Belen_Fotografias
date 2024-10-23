@@ -76,12 +76,12 @@
 
             <div class="row mt-5">
                 <div class="col-md-6">
-                    <img src="imagenes/fotografia_servicio.jpg" alt="Servicio de Fotografía" class="img-fluid mb-3" style="border-radius: 10px;">
+                    <img src="imagenes/paquetebasico/pb1.jpg" alt="Servicio de Fotografía" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Fotografía</h3>
                     <p>Cubrimos la boda religiosa, sesión de fotos y la recepción. Entregamos entre 180 y 220 fotografías digitales, editadas profesionalmente, en un plazo de 5 días.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="imagenes/filmacion_servicio.jpg" alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
+                    <img src="imagenes/paquetebasico/pb2.jpg" alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Filmación</h3>
                     <p>Filmamos la ceremonia religiosa, la sesión de fotos y la recepción. El material incluye un DVD personalizado y un video de hasta 2 horas en calidad 4K.</p>
                     <p>Además, ofrecemos un video resumen para compartir en redes sociales.</p>
