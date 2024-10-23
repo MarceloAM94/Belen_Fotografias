@@ -51,67 +51,112 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+        <!-- Hero Section -->
     <section class="hero text-center">
         <div class="container">
-            <h1 class="display-4">Paquete Básico de Fotografía</h1>
-            <p class="lead">Captura los momentos más íntimos y especiales de tu boda con nuestro paquete básico.</p>
-            <img src="imagenes/boda_hero.jpg" alt="Fotografía de boda" class="img-fluid mt-4" style="border-radius: 10px;">
+            <h1 class="display-4">Paquete Intermedio de Fotografía</h1>
+            <p class="lead">Perfecto para parejas que desean convertir ese día en un recuerdo memorable. ¡Que se arme la fiesta!</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="{{ asset('imagenes/paqueteinter/pi3.jpg') }}" alt="Fotografía de boda" class="img-fluid img-small" style="border-radius: 10px;">
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ asset('imagenes/paqueteinter/pi4.jpg') }}" alt="Fotografía de boda" class="img-fluid img-small" style="border-radius: 10px;">
+                </div>
+            </div>
         </div>
-    </section>
+    </section> 
 
-    <!-- Sección del Paquete Básico -->
+    <!-- Sección del Paquete Intermedio -->
     <section class="paquete-basico text-center py-5">
         <div class="container">
-            <h2>¿Qué incluye el Paquete Básico?</h2>
-            <p>Perfecto para parejas que desean una celebración íntima con sus seres queridos más cercanos.</p>
+            <h2>¿Qué incluye el Paquete Intermedio?</h2>
+            <p class="mb-4">Ideal para parejas que desean capturar cada momento significativo de su gran día.</p>
 
             <div class="row mt-5">
                 <div class="col-md-6">
-                    <img src="imagenes/fotografia_servicio.jpg" alt="Servicio de Fotografía" class="img-fluid mb-3" style="border-radius: 10px;">
+                    <img src="{{ asset('imagenes/paqueteinter/pi1.jpg') }}" alt="Servicio de Fotografía" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Fotografía</h3>
-                    <p>Cubrimos la boda religiosa, sesión de fotos y la recepción. Entregamos entre 180 y 220 fotografías digitales, editadas profesionalmente, en un plazo de 5 días.</p>
+                    <p>Cubrimos la boda civil, la sesión de recién casados, fotos previas en la casa de los novios, la boda religiosa, la sesión de fotos (paseo) y la recepción. Incluye la participación de 2 fotógrafos en el evento principal. Se entregarán de 450 a 500 fotos editadas profesionalmente en un plazo de 10 días.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="imagenes/filmacion_servicio.jpg" alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
+                    <img src="{{ asset('imagenes/paqueteinter/pi2.jpg') }}" alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Filmación</h3>
-                    <p>Filmamos la ceremonia religiosa, la sesión de fotos y la recepción. El material incluye un DVD personalizado y un video de hasta 2 horas en calidad 4K.</p>
-                    <p>Además, ofrecemos un video resumen para compartir en redes sociales.</p>
+                    <p>Filmamos cada momento importante: boda civil, sesión de recién casados, fotos previas, boda religiosa, paseo y recepción. El video será entregado en 2 DVDs personalizados con calidad 4K y una duración aproximada de 2 horas. Además, recibirás un DVD adicional con 100 fotos musicalizadas y un video resumen para redes sociales.</p>
                 </div>
             </div>
 
             <div class="mt-5">
+                <h3>Resumen de Entrega del Material</h3>
+                <ul class="list-unstyled">
+                    <li>📸 50 fotos tamaño jumbo en una caja de madera (25x25 cm).</li>
+                    <li>🔒 USB de madera con todas las fotos de la boda.</li>
+                    <li>🖼️ Cuadro de firmas (30x45 cm) con soporte para el día del evento.</li>
+                    <li>📀 2 DVDs con la filmación completa y 1 DVD con 100 fotos musicalizadas.</li>
+                </ul>
+            </div>
+
+            <div class="mt-5">
                 <h3>Equipo de Trabajo</h3>
-                <ul>
-                    <li>📸 1 Fotógrafo</li>
+                <ul class="list-unstyled">
+                    <li>📸 2 Fotógrafos</li>
                     <li>🎥 1 Videógrafo</li>
                     <li>🛠️ 1 Asistente</li>
                 </ul>
             </div>
-            <div class="inversion-total">
+            
+            <div class="inversion-total mt-5">
                 <h3>Inversión Total</h3>
-                <table class="table">
+                <table class="table table-bordered">
                     <tr>
                         <td>Servicio de Fotografía</td>
-                        <td>S/. 800</td>
+                        <td>S/. 1500</td>
                     </tr>
                     <tr>
                         <td>Servicio de Filmación 4K</td>
-                        <td>S/. 800</td>
+                        <td>S/. 1500</td>
                     </tr>
                     <tr>
-                        <td>Descuento por comprar ambos paquetes</td>
-                        <td>-S/. 30</td>
+                        <td>Descuento por contratar ambos servicios</td>
+                        <td>-S/. 100</td>
                     </tr>
                     <tr>
                         <td class="fw-bold">Total</td>
-                        <td class="fw-bold">S/. 1570</td>
+                        <td class="fw-bold">S/. 2900</td>
                     </tr>
                 </table>
                 <p class="nota">Nota: El precio no incluye movilidad.</p>
             </div>            
         </div>
     </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial bg-light p-4 rounded">
+                        <p>"Gracias a Belén Fotografías, nuestros recuerdos de boda son perfectos. ¡El servicio fue increíble!"</p>
+                        <p class="fw-bold">- Ana y Carlos</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial bg-light p-4 rounded">
+                        <p>"Capturaron cada detalle importante. ¡Estamos muy felices con el resultado!"</p>
+                        <p class="fw-bold">- Mariana y José</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial bg-light p-4 rounded">
+                        <p>"El video de resumen que hicieron fue maravilloso, perfecto para compartir en redes sociales."</p>
+                        <p class="fw-bold">- Laura y Daniel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Testimonios -->
     <section class="testimonios py-5">

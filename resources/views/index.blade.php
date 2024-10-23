@@ -64,19 +64,19 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('imagenes/marriage-4226896_1280.jpg') }}" class="d-block w-100" alt="Fotografía de boda">
+                <img src="{{ asset('imagenes/carrusel/carrusel1.jpg') }}" class="d-block w-100" alt="Fotografía de boda">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="display-4">Belén Fotografías</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('imagenes/newlyweds-7201462_1280.jpg') }}" class="d-block w-100" alt="Fotografía de recién casados">
+                <img src="{{ asset('imagenes/carrusel/carrusel2.jpg') }}" class="d-block w-100" alt="Fotografía de recién casados">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="display-4">Momentos Únicos</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('imagenes/wedding-1353829_1280.jpg') }}" class="d-block w-100" alt="Fotografía de pareja en boda">
+                <img src="{{ asset('imagenes/carrusel/carrusel3.jpg') }}" class="d-block w-100" alt="Fotografía de pareja en boda">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="display-4">Captura de Recuerdos</h1>
                 </div>
@@ -107,7 +107,7 @@
         <div class="col-md-4">
             <a href="{{ url('/paquetes') }}" class="text-decoration-none">
                 <div class="card">
-                    <img src="{{ asset('imagenes/wedding-540905_1280.jpg') }}" class="card-img-top" alt="Filmación de bodas">
+                    <img src="{{ asset('imagenes/index/index1.jpg') }}" class="card-img-top" alt="Filmación de bodas">
                     <div class="card-body">
                         <h5 class="card-title text-center">Paquete Básico</h5>
                     </div>
@@ -117,7 +117,7 @@
         <div class="col-md-4">
             <a href="{{ url('/paquetes') }}" class="text-decoration-none">
                 <div class="card">
-                    <img src="{{ asset('imagenes/wedding-7335258_1280.jpg') }}" class="card-img-top" alt="Filmación de eventos sociales">
+                    <img src="{{ asset('imagenes/index/index2.jpg') }}" class="card-img-top" alt="Filmación de eventos sociales">
                     <div class="card-body">
                         <h5 class="card-title text-center">Paquete Intermedio</h5>
                     </div>
@@ -127,7 +127,7 @@
         <div class="col-md-4">
             <a href="{{ url('/paquetes') }}" class="text-decoration-none">
                 <div class="card">
-                    <img src="{{ asset('imagenes/woman-4081760_1280.jpg') }}" class="card-img-top" alt="Edición de videos">
+                    <img src="{{ asset('imagenes/index/index3.jpg') }}" class="card-img-top" alt="Edición de videos">
                     <div class="card-body">
                         <h5 class="card-title text-center">Paquete Completo</h5>
                     </div>
