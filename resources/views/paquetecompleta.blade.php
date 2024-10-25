@@ -54,42 +54,48 @@
     <!-- Hero Section -->
     <section class="hero text-center">
         <div class="container">
-            <h1 class="display-4">Paquete Básico de Fotografía</h1>
-            <p class="lead">Captura los momentos más íntimos y especiales de tu boda con nuestro paquete básico.</p>
-            <img src="imagenes/boda_hero.jpg" alt="Fotografía de boda" class="img-fluid mt-4" style="border-radius: 10px;">
+            <h1 class="display-4">Paquete Completo de Fotografía</h1>
+            <p class="lead">Ningún detalle pasará por alto, tu boda será grabada detalle a detalle. Te aseguramos tener un recuerdo fidedigno de este día.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="{{ asset('imagenes/paquetecompleto/pc1.jpg') }}" alt="Fotografía de boda completa" class="img-fluid img-small" style="border-radius: 10px;">
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ asset('imagenes/paquetecompleto/pc2.jpg') }}" alt="Fotografía de boda completa" class="img-fluid img-small" style="border-radius: 10px;">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Sección del Paquete Básico -->
+    <!-- Sección del Paquete Completo -->
     <section class="paquete-basico text-center py-5">
         <div class="container">
-            <h2>¿Qué incluye el Paquete Básico?</h2>
-            <p>Perfecto para parejas que desean una celebración íntima con sus seres queridos más cercanos.</p>
+            <h2>¿Qué incluye el Paquete Completo?</h2>
+            <p>Perfecto para parejas que quieren capturar cada detalle de su boda y crear un recuerdo inolvidable.</p>
 
             <div class="row mt-5">
                 <div class="col-md-6">
-                    <img src="imagenes/fotografia_servicio.jpg" alt="Servicio de Fotografía" class="img-fluid mb-3" style="border-radius: 10px;">
+                    <img src="{{ asset('imagenes/paquetecompleto/pc1.jpg') }}"alt="Servicio de Fotografía" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Fotografía</h3>
-                    <p>Cubrimos la boda religiosa, sesión de fotos y la recepción. Entregamos entre 180 y 220 fotografías digitales, editadas profesionalmente, en un plazo de 5 días.</p>
+                    <p>Cubrimos todo: boda civil, sesión de recién casados, fotografía previa a la boda religiosa (casa de los novios), boda religiosa, sesión de fotos (paseo) y recepción. Entregamos entre 450 y 500 fotografías digitales, editadas y colorizadas profesionalmente, en un plazo de 10 días.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="imagenes/filmacion_servicio.jpg" alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Filmación</h3>
-                    <p>Filmamos la ceremonia religiosa, la sesión de fotos y la recepción. El material incluye un DVD personalizado y un video de hasta 2 horas en calidad 4K.</p>
-                    <p>Además, ofrecemos un video resumen para compartir en redes sociales.</p>
+                    <p>Filmación con 2 videógrafos, incluyendo el uso de GIMBAL y un dron para tomas aéreas en calidad 4K. El audio se captura desde la consola para mayor calidad. Se entregará un DVD con el evento completo, otro musicalizado con 100 fotos, y un video resumen para redes sociales. El material se enviará en 15 días.</p>
                 </div>
             </div>
 
             <div class="mt-5">
                 <h3>Equipo de Trabajo</h3>
                 <ul>
-                    <li>📸 1 Fotógrafo</li>
-                    <li>🎥 1 Videógrafo</li>
-                    <li>🛠️ 1 Asistente</li>
+                    <li>📸 2 Fotógrafos</li>
+                    <li>🎥 2 Videógrafos (con GIMBAL y dron)</li>
+                    <li>💡 1 Asistente para iluminación</li>
                 </ul>
             </div>
             <div class="inversion-total">
-                <h3>Inversión Total</h3>
+                <h3>Presupuesto de Inversión Total</h3>
                 <table class="table">
                     <tr>
                         <td>Servicio Completo</td>
@@ -101,7 +107,7 @@
                     </tr>
                 </table>
                 <p class="nota">Nota: El precio no incluye movilidad.</p>
-            </div>            
+            </div>
         </div>
     </section>
 
