@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Iconos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="{{ asset('imagenes/logo belen.png') }}" type="image/png">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -32,6 +35,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/equipo') }}">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('portafolio') }}">Portafolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://linktr.ee/belen_fotografias" target="_blank">Redes</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/contacto') }}">Contacto</a></li>
                     </ul>
@@ -41,7 +45,7 @@
     </header>
 
     <!-- Sección Hero -->
-    <section class="hero text-center py-5">
+    <section class="hero text-center py-5" data-aos="fade-up">
         <div class="container">
             <h1 class="display-4 text-white">Nuestro Portafolio</h1>
             <p class="lead text-white">Explora nuestros trabajos destacados y captura tus momentos especiales.</p>
@@ -50,9 +54,9 @@
 
     <!-- Sección de Proyectos -->
     <section class="container py-5">
-        <h2 class="text-center mb-4">Proyectos Destacados</h2>
+        <h2 class="text-center mb-4" data-aos="fade-right">Proyectos Destacados</h2>
         <div class="row">
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card">
                     <img src="{{ asset('imagenes/portafolio/portafolio1.jpg') }}" class="card-img-top" alt="Proyecto 1">
                     <div class="card-body">
@@ -62,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="400">
                 <div class="card">
                     <img src="{{ asset('imagenes/portafolio/portafolio2.jpg') }}" class="card-img-top" alt="Proyecto 2">
                     <div class="card-body">
@@ -72,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="600">
                 <div class="card">
                     <img src="{{ asset('imagenes/portafolio/portafolio3.jpg') }}" class="card-img-top" alt="Proyecto 3">
                     <div class="card-body">
@@ -88,17 +92,17 @@
     <!-- Sección de Reseñas -->
     <section class="bg-light py-5">
         <div class="container">
-            <h3 class="text-center mb-4">Lo que dicen nuestros clientes</h3>
+            <h3 class="text-center mb-4" data-aos="fade-up">Lo que dicen nuestros clientes</h3>
             <div class="row">
-                <div class="col-md-4 text-center mb-4">
+                <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
                     <p>"Un servicio excepcional y unas fotos increíbles. ¡Recomendados!"</p>
                     <h5>- Cliente Satisfecho</h5>
                 </div>
-                <div class="col-md-4 text-center mb-4">
+                <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
                     <p>"Capturaron cada momento de nuestra boda. Gracias, Belén Fotografías."</p>
                     <h5>- Feliz Novia</h5>
                 </div>
-                <div class="col-md-4 text-center mb-4">
+                <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
                     <p>"El mejor equipo de fotógrafos. ¡Las fotos son un tesoro!"</p>
                     <h5>- Padre del Bautizado</h5>
                 </div>
@@ -140,5 +144,13 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
 </body>
 </html>

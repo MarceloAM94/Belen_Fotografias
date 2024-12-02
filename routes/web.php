@@ -41,3 +41,8 @@ Route::get('/paquete-intermedio', function () {
 Route::get('/paquete-completo', function () {
     return view('paquetecompleta');
 });
+
+// Ruta para la pagina "Portafolio"
+Route::get('/portafolio', function () {
+    return view('portafolio');
+});
