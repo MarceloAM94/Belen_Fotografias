@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Iconos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="{{ asset('imagenes/logo belen.png') }}" type="image/png">
 </head>
 <body>
     <!-- Navbar -->
@@ -25,28 +26,19 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/') }}">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/equipo') }}">Equipo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://linktr.ee/belen_fotografias" target="_blank">Redes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/contacto') }}">Contacto</a>
-                        </li>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/equipo') }}">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('portafolio') }}">Portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://linktr.ee/belen_fotografias" target="_blank">Redes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/contacto') }}">Contacto</a></li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -129,34 +121,6 @@
             </div>            
         </div>
     </section>
-
-    <!-- Testimonios -->
-    <section class="testimonios py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="testimonial bg-light p-4 rounded">
-                        <p>"Gracias a Belén Fotografías, nuestros recuerdos de boda son perfectos. ¡El servicio fue increíble!"</p>
-                        <p class="fw-bold">- Ana y Carlos</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial bg-light p-4 rounded">
-                        <p>"Capturaron cada detalle importante. ¡Estamos muy felices con el resultado!"</p>
-                        <p class="fw-bold">- Mariana y José</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial bg-light p-4 rounded">
-                        <p>"El video de resumen que hicieron fue maravilloso, perfecto para compartir en redes sociales."</p>
-                        <p class="fw-bold">- Laura y Daniel</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <!-- Testimonios -->
     <section class="testimonios py-5">

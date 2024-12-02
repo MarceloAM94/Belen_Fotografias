@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="{{ asset('imagenes/logo belen.png') }}" type="image/png">
 </head>
 <body>
 
@@ -29,26 +30,16 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/') }}">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/equipo') }}">Equipo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://linktr.ee/belen_fotografias" target="_blank">Redes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/contacto') }}">Contacto</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/nosotros') }}">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/paquetes') }}">Paquetes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/equipo') }}">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('portafolio') }}">Portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://linktr.ee/belen_fotografias" target="_blank">Redes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/contacto') }}">Contacto</a></li>
                     </ul>
                 </div>
             </div>
