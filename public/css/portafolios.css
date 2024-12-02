@@ -1,0 +1,150 @@
+/* Asegúrate de enlazar este archivo en el <head> */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Cambiar el color de fondo de la navbar */
+.navbar-custom {
+    background-color: #ffffff; 
+}
+
+.navbar-brand{
+    font-style: bold;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+/* Cambiar el color de las letras en la navbar */
+.navbar-custom .nav-link {
+    color: #000000;
+}
+
+/* Cambiar el color cuando pasas el mouse sobre un enlace */
+.navbar-custom .nav-link:hover {
+    color: #C72D31; 
+}
+
+.footer-custom {
+    background-color: #343a40; /* Color oscuro para el fondo */
+    color: #ffffff; /* Texto blanco */
+}
+
+.footer-custom a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-custom a:hover {
+    color: #ffc107; /* Color amarillo para el hover */
+}
+
+.footer-custom .bi {
+    font-size: 1.5rem; /* Tamaño de los iconos de redes sociales */
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.footer-custom .bi:hover {
+    color: #ffc107; /* Efecto hover en los iconos de redes sociales */
+}
+
+.footer-custom hr {
+    border-color: rgba(255, 255, 255, 0.2); /* Líneas separadoras */
+}
+
+/* Estilo del footer */
+.footer-custom {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+.footer-custom a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-custom a:hover {
+    color: #ffc107; /* Color amarillo al pasar el mouse */
+}
+
+.footer-custom .bi {
+    font-size: 1.5rem; /* Tamaño de los iconos de redes sociales */
+    transition: color 0.3s;
+}
+
+.footer-custom .bi:hover {
+    color: #ffc107; /* Efecto hover en los iconos */
+}
+
+.footer-custom hr {
+    border-color: rgba(255, 255, 255, 0.2); /* Líneas separadoras */
+}
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #545454;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item.wide {
+    grid-column: span 2;
+}
+
+.gallery-item.tall {
+    grid-row: span 2;
+}

@@ -62,7 +62,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Boda en la Playa</h5>
                         <p class="card-text">Una hermosa ceremonia frente al mar.</p>
-                        <a href="#" class="btn btn-primary w-100">Ver Más</a>
+                        <a href="{{ url('/portafolio1') }}" class="btn btn-primary w-100">Ver Más</a>
                     </div>
                 </div>
             </div>
