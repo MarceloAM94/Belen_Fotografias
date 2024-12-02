@@ -46,3 +46,18 @@ Route::get('/paquete-completo', function () {
 Route::get('/portafolio', function () {
     return view('portafolio');
 });
+
+// Ruta para la pagina "Portafolio1"
+Route::get('/portafolio1', function () {
+    return view('portafolio1');
+});
+
+// Ruta para la pagina "Portafolio2"
+Route::get('/portafolio2', function () {
+    return view('portafolio2');
+});
+
+// Ruta para la pagina "Portafolio3"
+Route::get('/portafolio3', function () {
+    return view('portafolio3');
+});

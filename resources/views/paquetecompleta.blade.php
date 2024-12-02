@@ -72,7 +72,7 @@
                     <p>Cubrimos todo: boda civil, sesión de recién casados, fotografía previa a la boda religiosa (casa de los novios), boda religiosa, sesión de fotos (paseo) y recepción. Entregamos entre 450 y 500 fotografías digitales, editadas y colorizadas profesionalmente, en un plazo de 10 días.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="imagenes/filmacion_servicio.jpg" alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
+                    <img src="{{ asset('imagenes/a1.jpeg') }}"alt="Servicio de Filmación" class="img-fluid mb-3" style="border-radius: 10px;">
                     <h3>Servicio de Filmación</h3>
                     <p>Filmación con 2 videógrafos, incluyendo el uso de GIMBAL y un dron para tomas aéreas en calidad 4K. El audio se captura desde la consola para mayor calidad. Se entregará un DVD con el evento completo, otro musicalizado con 100 fotos, y un video resumen para redes sociales. El material se enviará en 15 días.</p>
                 </div>
