@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/gaaa.css') }}">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Iconos -->
@@ -58,7 +59,7 @@
         <div class="row">
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card">
-                    <img src="{{ asset('imagenes/portafolio/portafolio1.jpg') }}" class="card-img-top" alt="Proyecto 1">
+                    <img src="{{ asset('imagenes/portafolios/G&R_06.jpg') }}" class="card-img-top" alt="Proyecto 1">
                     <div class="card-body">
                         <h5 class="card-title text-center">Boda en la Playa</h5>
                         <p class="card-text">Una hermosa ceremonia frente al mar.</p>
@@ -68,21 +69,21 @@
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="400">
                 <div class="card">
-                    <img src="{{ asset('imagenes/portafolio/portafolio2.jpg') }}" class="card-img-top" alt="Proyecto 2">
+                    <img src="{{ asset('imagenes/portafolios/PRE SESION-25.jpg') }}" class="card-img-top" alt="Proyecto 2">
                     <div class="card-body">
                         <h5 class="card-title text-center">Sesión de Pareja</h5>
                         <p class="card-text">Capturando momentos únicos en pareja.</p>
-                        <a href="#" class="btn btn-primary w-100">Ver Más</a>
+                        <a href="{{ url('/portafolio2') }}" class="btn btn-primary w-100">Ver Más</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="600">
                 <div class="card">
-                    <img src="{{ asset('imagenes/portafolio/portafolio3.jpg') }}" class="card-img-top" alt="Proyecto 3">
+                    <img src="{{ asset('imagenes/portafolios/BODA-37.jpg') }}" class="card-img-top" alt="Proyecto 3">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Bautizo</h5>
+                        <h5 class="card-title text-center">Boda Civil</h5>
                         <p class="card-text">Un día especial lleno de emociones.</p>
-                        <a href="#" class="btn btn-primary w-100">Ver Más</a>
+                        <a href="{{ url('/portafolio3') }}" class="btn btn-primary w-100">Ver Más</a>
                     </div>
                 </div>
             </div>
