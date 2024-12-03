@@ -47,8 +47,8 @@
 
     <section class="portfolio">
         <div class="container">
-            <h1 class="text-center">Portafolio</h1>
-            <p class="text-center">Explora algunos de nuestros trabajos destacados.</p>
+            <h1 class="text-center">Boda en la Playa</h1>
+            <p class="text-center">Capturamos la magia de una boda frente al mar, con atardeceres dorados, brisa suave y emociones genuinas. Cada foto refleja la conexión íntima de la pareja en un entorno natural y elegante, inmortalizando cada detalle especial de este día único.</p>
             <div class="gallery">
                 <div class="gallery-item tall">
                     <img src="{{ asset('imagenes/portafolios/G&R_05.jpg') }}" alt="Trabajo 1">
@@ -114,6 +114,5 @@
             once: true,
         });
     </script>
-
 </body>
 </html>

@@ -24,7 +24,7 @@ body {
 
 /* Cambiar el color cuando pasas el mouse sobre un enlace */
 .navbar-custom .nav-link:hover {
-    color: #C72D31; 
+    color: #c72d31; 
 }
 
 /* Carrusel */
